@@ -1,7 +1,13 @@
-# DiscordLand.py
-- DiscordLand.py supports async and sync
+# Introduction
 
-# Installation
+## DiscordLand.py
+
+{% hint style="success" %}
+DiscordLand.py supports asynchronous and synchronous
+{% endhint %}
+
+## Installation
+
 ```
 pip install -U discordland.py
 ```
