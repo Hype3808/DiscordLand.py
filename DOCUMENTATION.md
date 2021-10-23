@@ -55,3 +55,20 @@ client = discordland.AsyncClient("your_discordland_bot_token_here")
 # it is your bot's discord land token, 
 # you can get it from https://discordland.gg/bot/:bot_id/stats
 ```
+
+## Methods
+
+### get_bot_info()
+Get the bot's info and stats
+
+#### Returns
+BotInfo
+
+#### Raises
+**APIError:** Raise when API is having problem or your token is invalid
+
+### get_user_votes(user_id)
+
+#### Parameters
+**user_id**: int
+> The user's discord id
