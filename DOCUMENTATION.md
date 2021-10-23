@@ -81,9 +81,26 @@ BotInfo
 **APIError:** Raise when API is having problem or your token is invalid
 
 
-## Results
+# Results
 
-### BotInfo
+## BotInfo
+Returns the bots information and stats
 
-#### Attributes
-##### Hi
+### Attributes
+> id
+- The bot's ID
+> username
+> discriminator
+> discrim
+> prefix
+> website
+> support_server
+> server
+> tags
+> owner
+> owners
+> added_on
+> votes
+> invites
+> servers
+> members
