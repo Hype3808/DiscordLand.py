@@ -50,7 +50,7 @@ class Client():
         if response.status_code != 200:
             raise APIError(f"{response.status_code}: The API is having problem. Join discord.gg/dland for more info")
         if json['code'] != 200:
-            raise APIError(f"{json['code']}: Something went wrong. Join discord.gg/dland for more info")
+            raise APIError(f"{json['code']}: {json['message']}")
         return BotInfo(json)
 
     def get_user_voted(self, user_id: int) -> bool:
@@ -82,7 +82,7 @@ class AsyncClient():
                 if response.status != 200:
                     raise APIError(f"{response.status}: The API is having problem. Join discord.gg/dland for more info")
                 if json['code'] != 200:
-                    raise APIError(f"{json['code']}: Something went wrong. Join discord.gg/dland for more info")
+                    raise APIError(f"{json['code']}: {json['message']}")
                 await session.close()
                 return BotInfo(json)
 
