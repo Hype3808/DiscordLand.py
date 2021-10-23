@@ -57,6 +57,7 @@ client = discordland.AsyncClient("your_discordland_bot_token_here")
 ```
 
 ## Methods
+Asynchronous and synchronous methods
 
 ### get_bot_info()
 Get the bot's info and stats
@@ -78,3 +79,7 @@ BotInfo
 
 ### Raises
 **APIError:** Raise when API is having problem or your token is invalid
+
+## class BotInfo
+
+### Available attributes
