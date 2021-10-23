@@ -88,7 +88,7 @@ Returns the bots information and stats
 
 ### Attributes
 > id
-: The bot's ID
+>> The bot's ID
 > username
 > discriminator
 > discrim
