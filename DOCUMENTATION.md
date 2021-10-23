@@ -80,6 +80,10 @@ BotInfo
 ### Raises
 **APIError:** Raise when API is having problem or your token is invalid
 
-## class BotInfo
 
-### Available attributes
+## Results
+
+### BotInfo
+
+#### Attributes
+##### Hi
