@@ -38,7 +38,9 @@ After that, start by creating a **Client**:
 import discordland
 
 client = discordland.Client("your_discordland_bot_token_here")
-# the token is not your bot token from your discord developers page, it is your bot's discord land token, you can get it from https://discordland.gg/bot/:bot_id/stats
+# the token is not your bot token from your discord developers page,
+# it is your bot's discord land token,
+# you can get it from https://discordland.gg/bot/:bot_id/stats
 ```
 
 or
@@ -49,5 +51,7 @@ or
 import discordland
 
 client = discordland.AsyncClient("your_discordland_bot_token_here")
-# the token is not your bot token from your discord developers page, it is your bot's discord land token, you can get it from https://discordland.gg/bot/:bot_id/stats
+# the token is not your bot token from your discord developers page, 
+# it is your bot's discord land token, 
+# you can get it from https://discordland.gg/bot/:bot_id/stats
 ```
