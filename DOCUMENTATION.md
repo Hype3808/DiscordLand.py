@@ -88,8 +88,13 @@ Returns the bots information and stats
 
 ### Attributes
 > id
->> The bot's ID
+
+Your bot's Discord ID
+
 > username
+
+Your bot's username
+
 > discriminator
 > discrim
 > prefix
