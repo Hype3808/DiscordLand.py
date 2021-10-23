@@ -72,3 +72,9 @@ BotInfo
 #### Parameters
 **user_id**: int
 > The user's discord id
+
+#### Returns
+[bool](https://docs.python.org/3/library/functions.html#bool)
+
+### Raises
+**APIError:** Raise when API is having problem or your token is invalid
