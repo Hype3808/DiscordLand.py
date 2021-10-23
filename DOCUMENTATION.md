@@ -96,16 +96,57 @@ Your bot's Discord ID
 Your bot's username
 
 > discriminator
+
+Your bot's discriminator
+
 > discrim
+
+An alias for *discriminator*
+
 > prefix
+
+Your bot's prefix
+
 > website
+
+Your bot's website
+
 > support_server
+
+Your bot's support_server
+
 > server
+
+An alias for *support_server*
+
 > tags
+
+Your bot's tags
+
 > owner
+
+Bot's owner
+
 > owners
+
+Bot's owners, the list will be nothing if the owner only have one
+
 > added_on
+
+The timestamp when your bot is added on
+
 > votes
+
+The votes your bot gains
+
 > invites
+
+See how many invites your bot gained
+
 > servers
+
+The server's your bot joined
+
 > members
+
+Members your bot's have
