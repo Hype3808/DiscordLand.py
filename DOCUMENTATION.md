@@ -63,7 +63,7 @@ Asynchronous and synchronous methods
 Get the bot's info and stats
 
 #### Returns
-BotInfo
+[BotInfo](https://github.com/Hype3808/DiscordLand.py/blob/main/DOCUMENTATION.md#botinfo)
 
 #### Raises
 **APIError:** Raise when API is having problem or your token is invalid
