@@ -1,7 +1,7 @@
 from discordland import AsyncClient
 import asyncio
 
-client = AsyncClient('uTAutcfsTKVn5ZStEP')
+client = AsyncClient('token')
 
 async def main():
     result = await client.get_bot_info()
