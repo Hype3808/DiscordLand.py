@@ -1,7 +1,7 @@
 from discordland import AsyncClient
 import asyncio
 
-client = AsyncClient('uTAutcfsTKVn5ZStEP')
+client = AsyncClient('hidden')
 
 async def main():
     result = await client.get_user_voted(812131142290505799)
