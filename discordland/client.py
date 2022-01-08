@@ -29,7 +29,7 @@ from .errors import APIError
 
 __all__ = (
     'Client',
-    'AsyncClient'
+    'AsyncClient',
 )
 
 BASE_URL = "https://discordland.gg"
