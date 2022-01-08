@@ -1,3 +1,3 @@
-from .client import Client, AsyncClient
-from .results import BotInfo
-from .errors import APIError
+from .client import *
+from .results import *
+from .errors import *
