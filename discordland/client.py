@@ -27,6 +27,11 @@ from .results import BotInfo
 from discordland import results
 from .errors import APIError
 
+__all__ = (
+    'Client',
+    'AsyncClient'
+)
+
 BASE_URL = "https://discordland.gg"
 
 class Client():
