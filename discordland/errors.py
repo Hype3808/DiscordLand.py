@@ -24,7 +24,7 @@ SOFTWARE.
 
 __all__ = (
     'BaseException',
-    'APIError'
+    'APIError',
 )
 
 class BaseException(Exception):
