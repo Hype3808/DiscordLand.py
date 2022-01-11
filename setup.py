@@ -29,7 +29,7 @@ with open("requirements.txt", "r") as f:
 
 setup(
     name="discordland.py",
-    version="0.0.1",
+    version="0.0.1.post0",
     description="API wrapper for discord land (A bot and server list) API",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
